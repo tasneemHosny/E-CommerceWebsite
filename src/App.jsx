@@ -45,6 +45,7 @@ function App() {
             element: <Layout />,
             children: [
                 { path: 'home', element: <ProtectedRoute><Home /></ProtectedRoute> },
+                { path: '/E-CommerceWebsite', element: <ProtectedRoute><Home /></ProtectedRoute> },
                 { path: 'products', element: <ProtectedRoute><Products /></ProtectedRoute> },
                 { path: 'productDetails/:id', element: <ProtectedRoute><ProductDetails /></ProtectedRoute> },
                 { path: 'register', element: <Register /> },
