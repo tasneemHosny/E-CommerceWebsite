@@ -41,10 +41,9 @@ function App() {
 
     const router = createBrowserRouter([
         {
-            path: '/',
+            path: '/E-CommerceWebsite',
             element: <Layout />,
             children: [
-                { path: '/', element: <ProtectedRoute><Home /></ProtectedRoute> },
                 { path: '/home', element: <ProtectedRoute><Home /></ProtectedRoute> },
                 { path: '/products', element: <ProtectedRoute><Products /></ProtectedRoute> },
                 { path: '/productDetails/:id', element: <ProtectedRoute><ProductDetails /></ProtectedRoute> },
